@@ -1,0 +1,8 @@
+<h1>I am in phones index </h1>
+<!-- erb tags, skull tags, snow cone with sprinkles -->
+<% @phones.each do |phone| %>
+  <p>maker: <%= phone.maker %></p>
+  <p>version: <%= phone.version %></p>
+  <p>color: <%= phone.color %></p>
+  <hr>
+<% end %>
