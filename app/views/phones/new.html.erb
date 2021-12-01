@@ -1,0 +1,8 @@
+<p>This is the new page</p>
+
+<%= form_tag "/phones", method: :post do %>
+  <p>Maker: <input type="text" name="maker"></p>
+  <p>Color: <input type="text" name="color"></p>
+  <p>Version: <input type="text" name="version"></p>
+  <p><input type="submit" value="Make a new phone"></p>
+<% end %>
